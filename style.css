@@ -1,0 +1,140 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+    border: 0;
+    background-image: url(vecteezy_abstract-red-fluid-wave-background_.jpg);
+}
+.tema{
+    border: none;
+    margin: none;
+    padding: none;
+    max-width: max-content;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    margin: 0;
+    border: 0;
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    width: 100%;
+
+}
+.logo{
+    padding: 10px;
+    width: 50%;
+    align-items: center;
+    text-align: left;
+}
+.links{
+    width: 50%;
+    padding-left: 0px ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.links >a{
+    padding: none;
+    color: black;
+    text-decoration: none;
+    font-family:Trebuchet MS;
+    font-size: 18px;
+    margin: 15px;
+}
+.links >a:hover{
+    color: rgb(255, 153, 0);
+}
+#conta{
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.menu-esquerdo{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu-direito{
+    width: 50vw;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-total{
+    margin: none;
+    border: none;
+    padding: 10px;
+    max-width: max-content;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: linear-gradient(120deg, rgb(255, 0, 0),rgb(255, 0, 0));
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px;
+}
+.card-login > h1{
+    color: white;
+    font-weight: 800;
+    padding-top: 5px;
+    margin: 0;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding:16px ;
+    margin: 3px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px black;
+    outline: none;
+    box-sizing: border-box;
+}
+#submit{
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background-color: white;
+    box-shadow: 0px 10px 40px black;
+}
+.textfield > label{
+    font-family: Trebuchet MS;
+    color: rgb(7, 7, 7);
+    margin-bottom: 10px;
+}
+form{
+    width: 100%;
+}
