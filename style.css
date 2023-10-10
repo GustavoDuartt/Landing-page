@@ -203,6 +203,17 @@ form{
     }
 }
 
+@media (max-width: 411px) {
+    #contatos {
+        padding: 1%;
+    }
+
+    .links a {
+        margin: 2%;
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 375px) {
     .links a {
         margin: 2%;
